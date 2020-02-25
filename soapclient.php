@@ -1,6 +1,6 @@
 <?php
 
-$soapclient = new SoapClient('http://172.18.0.4:8080/ode/processes/homecloud?wsdl');
+$soapclient = new SoapClient('http://34.66.85.143:8080/ode/processes/homecloud?wsdl');
 
 $params = array('SNN' => $_GET['SSN'] , 'homeprice' => $_GET['home'] , 'loanamount' => $_GET['Loan']);
 
